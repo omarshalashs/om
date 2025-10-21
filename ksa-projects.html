@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ksa-projects</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/all.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link rel="icon" type="image/png" href="images/logoweb21.png">
+  <style>
+    body {
+      font-family: 'Cairo', sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: #222;
+      padding: 10px 0;
+    }
+
+    .ul1 {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+    }
+
+    .ul1 li a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      transition: 0.3s;
+    }
+
+    .ul1 li a:hover {
+      color: #00bcd4;
+    }
+
+    .popular-container {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .popular-h2 {
+      font-size: 30px;
+      color: #222;
+      margin-bottom: 10px;
+    }
+
+    .popular-underline {
+      width: 100px;
+      height: 3px;
+      background: #00bcd4;
+      margin: 0 auto 30px auto;
+      border-radius: 3px;
+    }
+
+    /* ✅ شبكة المشاريع */
+    .pop-div2 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      justify-items: center;
+    }
+
+    /* ✅ كارت المشروع */
+    .popular-c {
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      padding: 20px;
+      transition: transform 0.3s, box-shadow 0.3s;
+      max-width: 300px;
+      overflow: hidden;
+    }
+
+    .popular-c:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    }
+
+    /* ✅ الصورة مع الاسم فوقها */
+    .project-img-container {
+      position: relative;
+      overflow: hidden;
+      border-radius: 15px;
+    }
+
+    .project-img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 15px;
+      transition: transform 0.4s;
+    }
+
+    .popular-c:hover .project-img {
+      transform: scale(1.1);
+    }
+
+    .project-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    h3 {
+      margin: 10px 0;
+      color: #333;
+    }
+
+    p {
+      color: #666;
+      font-size: 15px;
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 50px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="nav-div1">
+      <ul class="ul1"> 
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- KSA Projects Section -->
+  <section class="popular-container">
+    <div class="popular-title">
+      <h2 class="popular-h2">ksa-projects </h2>
+      <p class="popular-underline"></p>
+    </div>
+
+    <!-- ✅ هنا شبكة المشاريع -->
+    <div class="pop-div2">
+
+      <div class="popular-c">
+        <a href="sidra.html" class="project-box">
+          <div class="project-img-container">
+            <img src="images/s.jpeg" alt=" Roshen (Sidra)" class="project-img">
+            <div class="project-overlay">Roshen (Sidra)</div>
+          </div>
+        </a>
+        <p>All types of air conditioning and ventilation</p>
+      </div>
+
+    <div class="popular-c">
+        <a href="kahel.html" class="project-box">
+          <div class="project-img-container">
+            <img src="images/h.jpeg" alt="Al Kahil" class="project-img">
+            <div class="project-overlay">Al Kahil</div>
+          </div>
+        </a>
+        <p>All types of air conditioning and ventilation</p>
+      </div>  
+
+    <div class="popular-c">
+        <a href="fonk heten.html" class="project-box">
+          <div class="project-img-container">
+            <img src="images/a.jpeg" alt="Hittin Hotel" class="project-img">
+            <div class="project-overlay">Hittin Hotel</div>
+          </div>
+        </a>
+        <p> All types of air conditioning and ventilation </p>
+      </div>  
+
+
+      <div class="popular-c">
+        <a href="borg bolokonia.html" class="project-box">
+          <div class="project-img-container">
+            <img src="images/o.jpeg" alt="Bloconia Tower"class="project-img">
+            <div class="project-overlay">Bloconia Tower</div>
+          </div>
+        </a>
+        <p>All types of air conditioning and ventilation </p>
+      </div>  
+  
+    
+
+
+      <div class="popular-c">
+        <a href="kemit elamir mohamed bn fesel.html" class="project-box">
+          <div class="project-img-container">
+            <img src="images/r.jpeg" alt="Prince Mohammed bin Faisal Tent "class="project-img">
+            <div class="project-overlay"> Prince Mohammed bin Faisal Tent </div>
+          </div>
+        </a>
+        <p> Supply and installation of air conditioning units </p>
+      </div>   
+  
+    
+
+      <div class="popular-c">
+        <a href="company of nagz express.html" class="project-box">
+          <div class="project-img-container">
+            <img src="images/k.jpeg" alt="Najz Express Company" class="project-img">
+            <div class="project-overlay">Najz Express Company </div>
+          </div>
+        </a>
+        <p>Supply and installation of air conditioning units</p>
+      </div>   
+  
+    
+ <div class="popular-c">
+        <a href="kasr elmohydb.html" class="project-box">
+          <div class="project-img-container">
+            <img src="images/z.jpeg" alt="Al Muhaidib Palace" class="project-img">
+            <div class="project-overlay">Al Muhaidib Palace</div>
+          </div>
+        </a>
+        <p>Supply and installation of air conditioning units></p>
+      </div>   
+
+
+      
+
+     <div class="popular-c">
+        <a href="mall of bolfard.html" class="project-box">
+          <div class="project-img-container">
+            <img src="images/l.jpeg" alt="Boulevard 2030 Mall" class="project-img">
+            <div class="project-overlay">Boulevard 2030 Mall</div>
+          </div>
+        </a>
+        <p>All air conditioning and ventilation works in the mall</p>
+      </div>  
+  
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <p>&copy; Madinaty AL-alamia COMPANY. جميع الحقوق محفوظة.</p>
+    </div>
+  </footer>
+</body>
+</html>
